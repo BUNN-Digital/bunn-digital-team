@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" class="min-h-full antialiased">
+<head>
+	{# include our meta tags #}
+	{% include "partials/meta.njk" %}
+	{% include "partials/head.njk" %}
+</head>
+
+<body class="bg-white">
+	
+<div class="main" role="main">
+
+	{% include "partials/header.njk" %}
+
+	<div class="main">
+		{{ content | safe }}
+	</div>
+
+</div>
+
+{% include "partials/footer.njk" %}
+
+{% include "partials/scripts.njk" %}
+
+</body>
+</html>

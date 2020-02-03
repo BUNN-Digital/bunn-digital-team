@@ -1,0 +1,20 @@
+{
+    "main": [
+        {
+            "label": "E-commerce Solutions",
+            "url": "/#e-commerce"
+        },
+        {
+            "label": "Mobile Applications",
+            "url": "/#mobile-apps"
+        },
+        {
+            "label": "Product Technology",
+            "url": "/#product-technology"
+        },
+        {
+            "label": "Sales and Marketing",
+            "url": "/#sales-marketing"
+        }
+    ]
+}

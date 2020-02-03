@@ -1,0 +1,93 @@
+<div class="flex items-center justify-center py-12">
+	{% include "partials/logo.njk" %}
+</div>
+<div class="max-w-5xl mx-auto flex justify-between items-center w-full">
+	<div>
+		<h2 class="text-lg-2 font-sans-light flex-grow">Digital Solutions Team, IT</h2>
+		<nav class="flex text-base">
+			{% for item in navigation.main %}
+
+				<a href="{{ item.url | safe }}" class="py-2 mr-6 text-gray-600">{{ item.label }}</a>
+
+			{% endfor %}
+		</nav>
+	</div>
+	
+	<img src="https://via.placeholder.com/180" class="rounded-full block" />
+</div>
+
+<div class="max-w-5xl mx-auto my-6">
+	<h4 class="font-sans-demi text-body text-gray-500 tracking-wider mb-3">SUB HEADING</h4>
+	<p class="text-lg-2 w-2/3 font-sans-light">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in odio sed orci congue porttitor volutpat nec justo. Suspendisse vel orci pulvinar, vehicula ex in, tincidunt tortor.
+	</p>
+	<a class="btn btn--primary">Meet the team</a>
+</div>
+
+
+<div id="e-commerce" class="section bg-gray-100 my-48 flex">
+	<div class="relative z-page flex max-w-5xl mx-auto flex items-center">
+		<div class="w-3/5 pr-8">
+			<h3 class="font-sans-light text-lg-3 mb-4">E-commerce Solutions</h3>
+			<p class="text-gray-600 leading-relaxed">Donec lacinia elit lorem, sed venenatis augue mattis quis. Vivamus aliquet nisi non ex luctus, eu commodo augue posuere. Vestibulum lobortis ligula tellus, at tincidunt sapien placerat sit amet.</p>
+			<div class="flex text-sm-2">
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium mr-2">Content Managment</span>
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium mr-2">Web Payments</span>
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium mr-2">Customer Accounts</span>
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium">Product Information</span>
+			</div>
+		</div>
+		<div class="w-2/5 pl-8">
+			<img src="/images/bunn.com.png" class="block float-right" />
+		</div>
+	</div>
+</div>
+
+
+<div id="mobile-apps" class="my-48 py-24 flex">
+	<div class="relative z-page flex max-w-5xl mx-auto flex items-center">
+		<div class="w-1/2">
+			<img src="https://via.placeholder.com/420x300" class="block float-left" />
+		</div>
+		<div class="w-1/2">
+			<h3 class="font-sans-light text-lg-3 mb-4">Mobile Application Development</h3>
+			<p class="text-gray-600 leading-relaxed">Donec lacinia elit lorem, sed venenatis augue mattis quis. Vivamus aliquet nisi non ex luctus, eu commodo augue posuere. Vestibulum lobortis ligula tellus, at tincidunt sapien placerat sit amet.</p>
+			<div class="flex text-sm-2">
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium mr-2">Some Text</span>
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium mr-2">Some Text</span>
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium mr-2">Some Text</span>
+				<span class="py-2 px-4 bg-gray-300 text-gray-500 rounded-full font-sans-medium">Some Text</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="product-technology" class="section bg-brand-primary my-48">
+	<div class="relative z-page flex max-w-5xl mx-auto flex items-center text-white">
+		<div class="w-1/2">
+			<h3 class="font-sans-light text-lg-3 text-white mb-4">Product Technology</h3>
+			<p class="text-white-rgba-70 leading-relaxed">Donec lacinia elit lorem, sed venenatis augue mattis quis. Vivamus aliquet nisi non ex luctus, eu commodo augue posuere. Vestibulum lobortis ligula tellus, at tincidunt sapien placerat sit amet.</p>
+			<div class="flex text-sm-2">
+				<span class="py-2 px-4 bg-white text-brand-primary rounded-full font-sans-medium mr-2">Some Text</span>
+				<span class="py-2 px-4 bg-white text-brand-primary rounded-full font-sans-medium mr-2">Some Text</span>
+				<span class="py-2 px-4 bg-white text-brand-primary rounded-full font-sans-medium mr-2">Some Text</span>
+				<span class="py-2 px-4 bg-white text-brand-primary rounded-full font-sans-medium">Some Text</span>
+			</div>
+		</div>
+		<div class="w-1/2">
+			<img src="https://via.placeholder.com/420x300" class="block float-right" />
+		</div>
+	</div>
+</div>
+
+<div id="sales-marketing" class="my-48 py-24 flex">
+	<div class="relative z-page flex max-w-5xl mx-auto flex items-center">
+		<div class="w-1/2">
+			<img src="https://via.placeholder.com/420x300" class="block float-left" />
+		</div>
+		<div class="w-1/2">
+			<h3 class="font-sans-light text-lg-3 mb-4">Sales and Marketing</h3>
+			<p class="text-gray-600 leading-relaxed">Donec lacinia elit lorem, sed venenatis augue mattis quis. Vivamus aliquet nisi non ex luctus, eu commodo augue posuere. Vestibulum lobortis ligula tellus, at tincidunt sapien placerat sit amet.</p>
+		</div>
+	</div>
+</div>
