@@ -13,7 +13,7 @@
 	"author": "BUNN Digital",
 	"license": "MIT",
 	"devDependencies": {
-		"@11ty/eleventy": "^0.8.3",
+		"@11ty/eleventy": "^1.0.2",
 		"bunn-design-system": "git+https://github.com/BUNN-Digital/design-system.git#v0.8.70",
 		"@babel/core": "^7.6.4",
 		"@babel/preset-env": "^7.6.3",
